@@ -1,0 +1,2 @@
+# ProductInventoryManagement
+Simple blazor project
