@@ -93,6 +93,8 @@ BEGIN
     -- add products
     INSERT INTO products (Name, Description, Price, Quantity, created_at, updated_at)
     VALUES (p_name, p_description, p_price, p_quantity, NOW(), NOW());
+
+	SELECT * FROM products WHERE Id = LAST_INSERT_ID();
 END //
 
 DELIMITER ;
