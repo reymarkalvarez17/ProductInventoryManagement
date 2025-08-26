@@ -54,7 +54,6 @@ CREATE PROCEDURE sp_add_products(
     IN p_quantity INT
 )
 BEGIN
-    -- add products
     INSERT INTO products (Name, Description, Price, Quantity)
     VALUES (p_name, p_description, p_price, p_quantity);
 
@@ -73,7 +72,6 @@ CREATE PROCEDURE sp_update_products(
     IN p_quantity INT
 )
 BEGIN
-    -- Update only if at least one value is different
     UPDATE products
     SET 
         Name = p_name,
