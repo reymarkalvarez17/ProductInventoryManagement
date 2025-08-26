@@ -4,8 +4,9 @@ Extract the zip file
 
 Open the Project
 -Open Visual Studio.
--Open Project or Solution
--Load the ProductInventoryManagement.sln.
+-On Get Started click Open Project or Solution
+-Load the ProductInventoryManagement.sln from the extracted zip file
+that you downloaded
 
 Set Up the Database
 -Open MySQL Workbench (or your preferred SQL client).
