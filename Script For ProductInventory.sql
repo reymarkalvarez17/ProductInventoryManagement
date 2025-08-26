@@ -106,6 +106,17 @@ END //
 
 DELIMITER ;
 
+DELIMITER //
+
+CREATE PROCEDURE sp_search_product_name(
+    IN p_name VARCHAR(100)
+)
+BEGIN
+    select * From products
+Where Name like CONCAT('%',p_name,'%');
+END //
+
+DELIMITER ;
 
 
 
