@@ -18,7 +18,7 @@ Run the Application
 
 Default User Accounts
 You can log in using the following credentials:
-Username	Password	
+Username    Password	
 admin	    1234	    
 user	    1234	
 
