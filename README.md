@@ -1,7 +1,11 @@
 # ProductInventoryManagement
-1.Open the Project
+Download the project ProductInventoryManagement.zip here
+Extract the zip file
+
+Open the Project
 -Open Visual Studio.
--Load the ProductInventoryManagement project.
+-Open Project or Solution
+-Load the ProductInventoryManagement.sln.
 
 Set Up the Database
 -Open MySQL Workbench (or your preferred SQL client).
