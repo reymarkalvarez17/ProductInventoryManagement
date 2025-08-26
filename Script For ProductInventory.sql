@@ -1,8 +1,6 @@
-
 Create database product_inventory;
 
 use product_inventory;
-
 
 CREATE TABLE products ( 
 
