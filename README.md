@@ -2,26 +2,26 @@
 1.Open the Project
 -Open Visual Studio.
 -Load the ProductInventoryManagement project.
-//
+
 Set Up the Database
 -Open MySQL Workbench (or your preferred SQL client).
 -Open the SQL script file: Script For ProductInventory.sql.
 -Paste the commands into Workbench and run the script to create the database and tables.
-//
+
 Configure Database Connection
 -Open appsettings.json in the project.
 -Update the Username and Password to match your MySQL credentials.
-//
+
 Run the Application
 -Press Ctrl + F5 (or click Start Without Debugging) in Visual Studio.
 -The application should open in your browser.
-//
+
 Default User Accounts
 You can log in using the following credentials:
 Username	Password	
 admin	    1234	    
 user	    1234	
-//
+
 API ENDPOINTS
 GET ALL PRODUCTS https://localhost:7081/api/products
 
